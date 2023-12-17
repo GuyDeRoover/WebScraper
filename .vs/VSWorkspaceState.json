@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebScraper",
+    "\\WebScraper\\DAL",
+    "\\WebScraper\\Models",
+    "\\WebScraper\\Views"
   ],
-  "SelectedNode": "\\WebScraper.sln",
+  "SelectedNode": "\\WebScraper\\DAL\\DevianArtScraper.cs",
   "PreviewInSolutionExplorer": false
 }

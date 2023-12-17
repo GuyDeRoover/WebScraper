@@ -1,0 +1,10 @@
+C:\Users\deroo\Favorites\WebScraper.exe
+C:\Users\deroo\Favorites\selenium-manager\linux\selenium-manager
+C:\Users\deroo\Favorites\selenium-manager\macos\selenium-manager
+C:\Users\deroo\Favorites\selenium-manager\windows\selenium-manager.exe
+C:\Users\deroo\Favorites\WebScraper.dll
+C:\Users\deroo\Favorites\WebScraper.deps.json
+C:\Users\deroo\Favorites\WebScraper.runtimeconfig.json
+C:\Users\deroo\Favorites\WebScraper.pdb
+C:\Users\deroo\Favorites\Newtonsoft.Json.dll
+C:\Users\deroo\Favorites\WebDriver.dll

@@ -16,6 +16,7 @@ namespace WebScraper
                     YouTubeScraperPage.Print();
                     string? keywords = Console.ReadLine();
                     YouTubeScraper.ScrapeYouTube(keywords);
+                    Console.ReadKey();
 
                 }
                 else if (choice == 2)
@@ -23,12 +24,14 @@ namespace WebScraper
                     IctjobScraperPage.Print();
                     string? keywords = Console.ReadLine();
                     IctjobScraper.ScrapeIctjob(keywords);
+                    Console.ReadKey();
                 }
                 else if (choice == 3)
                 {
                     DevianArtScraperPage.Print();
                     string? keywords = Console.ReadLine();
                     DevianArtScraper.ScrapeDevianArt(keywords);
+                    Console.ReadKey();
                 }
             } while (false);
         }

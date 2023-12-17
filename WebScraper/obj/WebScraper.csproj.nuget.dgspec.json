@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj": {}
+    "C:\\Users\\deroo\\source\\repos\\Webscraper\\WebScraper\\WebScraper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj": {
+    "C:\\Users\\deroo\\source\\repos\\Webscraper\\WebScraper\\WebScraper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj",
+        "projectUniqueName": "C:\\Users\\deroo\\source\\repos\\Webscraper\\WebScraper\\WebScraper.csproj",
         "projectName": "WebScraper",
-        "projectPath": "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj",
+        "projectPath": "C:\\Users\\deroo\\source\\repos\\Webscraper\\WebScraper\\WebScraper.csproj",
         "packagesPath": "C:\\Users\\deroo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\obj\\",
+        "outputPath": "C:\\Users\\deroo\\source\\repos\\Webscraper\\WebScraper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deroo\\AppData\\Roaming\\NuGet\\NuGet.Config",
