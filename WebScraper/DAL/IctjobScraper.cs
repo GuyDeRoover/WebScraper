@@ -23,7 +23,6 @@ namespace WebScraper.DAL
             WebDriverWait waitPopupCookies = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
             waitPopupCookies.Until(d => d.FindElement(By.Id("sort-by-date")).Displayed);
             driver.FindElement(By.Id("sort-by-date")).Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             // Pull data from elements
             var title = driver.FindElements(By.XPath("//*/a[@class=\"job-title search-item-link\"]/h2[@class=\"job-title\"]"));
             var company = driver.FindElements(By.ClassName("job-company"));
