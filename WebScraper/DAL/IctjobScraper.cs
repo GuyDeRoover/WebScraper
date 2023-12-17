@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using System.Text.Json;
 using WebScraper.Models;
+using OpenQA.Selenium.Support.UI;
 
 namespace WebScraper.DAL
 {
@@ -18,8 +19,13 @@ namespace WebScraper.DAL
             // Comment out the 2 lines above and remove "option" argument in line below to open browser when scraping
             IWebDriver driver = new ChromeDriver(option);
             driver.Navigate().GoToUrl(query);
+            // Wait for elememt to show up and then click to sort for most recent
+            WebDriverWait waitPopupCookies = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
+            waitPopupCookies.Until(d => d.FindElement(By.Id("sort-by-date")).Displayed);
+            driver.FindElement(By.Id("sort-by-date")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             // Pull data from elements
-            var title = driver.FindElements(By.ClassName("job-title"));
+            var title = driver.FindElements(By.XPath("//*/a[@class=\"job-title search-item-link\"]/h2[@class=\"job-title\"]"));
             var company = driver.FindElements(By.ClassName("job-company"));
             var location = driver.FindElements(By.XPath("//*/span[@class=\"job-location\"]/span/span"));
             var keywords = driver.FindElements(By.ClassName("job-keywords"));
