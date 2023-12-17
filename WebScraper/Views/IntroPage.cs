@@ -16,7 +16,7 @@ namespace WebScraper.Views
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine("1.  YouTube.com");
-            Console.WriteLine("2.  ictjob.be");
+            Console.WriteLine("2.  Ictjob.be");
             Console.WriteLine("3.  DevianArt.com");
             Console.WriteLine(" ");
             Console.Write("Enter choice: ");
