@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "89drD/n1+0/bhiH1JlF4ov88S0BvtPgr0SoC+CGDP0ndTqzEd3/vakusrK6GHpiK6FxTLcJ7NogDMZsXOTOx+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deroo\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deroo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\deroo\\.nuget\\packages\\selenium.webdriver\\4.16.2\\selenium.webdriver.4.16.2.nupkg.sha512"
+  ],
+  "logs": []
+}
